@@ -14,6 +14,7 @@
 		A2FE91531B8D90E200EAB28D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FE91521B8D90E200EAB28D /* Images.xcassets */; };
 		A2FE91561B8D90E200EAB28D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2FE91541B8D90E200EAB28D /* LaunchScreen.xib */; };
 		A2FE91621B8D90E200EAB28D /* StringSizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FE91611B8D90E200EAB28D /* StringSizeTests.m */; };
+		A2FE91711B8D978A00EAB28D /* NSString+StringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FE91701B8D978A00EAB28D /* NSString+StringSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A2FE915B1B8D90E200EAB28D /* StringSizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringSizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FE91601B8D90E200EAB28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2FE91611B8D90E200EAB28D /* StringSizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringSizeTests.m; sourceTree = "<group>"; };
+		A2FE916F1B8D978A00EAB28D /* NSString+StringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringSize.h"; sourceTree = "<group>"; };
+		A2FE91701B8D978A00EAB28D /* NSString+StringSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		A2FE91441B8D90E200EAB28D /* StringSize */ = {
 			isa = PBXGroup;
 			children = (
+				A2FE916E1B8D978A00EAB28D /* StringSize */,
 				A2FE91491B8D90E200EAB28D /* AppDelegate.h */,
 				A2FE914A1B8D90E200EAB28D /* AppDelegate.m */,
 				A2FE914C1B8D90E200EAB28D /* ViewController.h */,
@@ -117,6 +121,15 @@
 				A2FE91601B8D90E200EAB28D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2FE916E1B8D978A00EAB28D /* StringSize */ = {
+			isa = PBXGroup;
+			children = (
+				A2FE916F1B8D978A00EAB28D /* NSString+StringSize.h */,
+				A2FE91701B8D978A00EAB28D /* NSString+StringSize.m */,
+			);
+			path = StringSize;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2FE914E1B8D90E200EAB28D /* ViewController.m in Sources */,
+				A2FE91711B8D978A00EAB28D /* NSString+StringSize.m in Sources */,
 				A2FE914B1B8D90E200EAB28D /* AppDelegate.m in Sources */,
 				A2FE91481B8D90E200EAB28D /* main.m in Sources */,
 			);
